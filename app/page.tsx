@@ -67,7 +67,7 @@ export default function Home() {
             <div className="mt-16 w-full max-w-5xl mx-auto relative">
               <div className="aspect-video rounded-lg border shadow-xl overflow-hidden bg-white">
                 <img
-                  src="/placeholder.svg?height=720&width=1280"
+                  src="/placeholder.jpg"
                   alt="Elearnly AI Platform Preview"
                   className="w-full h-full object-cover"
                 />
@@ -150,7 +150,7 @@ export default function Home() {
                   </p>
                   <div className="mt-6 aspect-video rounded-md overflow-hidden bg-slate-100">
                     <img
-                      src="/placeholder.svg?height=200&width=350"
+                      src="/placeholder.jpg"
                       alt="Enter course topic"
                       className="w-full h-full object-cover"
                     />
@@ -168,7 +168,7 @@ export default function Home() {
                   </p>
                   <div className="mt-6 aspect-video rounded-md overflow-hidden bg-slate-100">
                     <img
-                      src="/placeholder.svg?height=200&width=350"
+                      src="/placeholder.jpg"
                       alt="Generate modules"
                       className="w-full h-full object-cover"
                     />
@@ -186,7 +186,7 @@ export default function Home() {
                   </p>
                   <div className="mt-6 aspect-video rounded-md overflow-hidden bg-slate-100">
                     <img
-                      src="/placeholder.svg?height=200&width=350"
+                      src="/placeholder.jpg"
                       alt="Publish and share"
                       className="w-full h-full object-cover"
                     />
@@ -216,7 +216,7 @@ export default function Home() {
                 <div className="flex items-center mb-4">
                   <div className="w-12 h-12 rounded-full overflow-hidden mr-4">
                     <img
-                      src="/placeholder.svg?height=100&width=100"
+                      src="/placeholder-user.jpg"
                       alt="Sarah Johnson"
                       className="w-full h-full object-cover"
                     />
@@ -235,7 +235,7 @@ export default function Home() {
                 <div className="flex items-center mb-4">
                   <div className="w-12 h-12 rounded-full overflow-hidden mr-4">
                     <img
-                      src="/placeholder.svg?height=100&width=100"
+                      src="/placeholder-user.jpg"
                       alt="Michael Chen"
                       className="w-full h-full object-cover"
                     />
@@ -254,7 +254,7 @@ export default function Home() {
                 <div className="flex items-center mb-4">
                   <div className="w-12 h-12 rounded-full overflow-hidden mr-4">
                     <img
-                      src="/placeholder.svg?height=100&width=100"
+                      src="/placeholder-user.jpg"
                       alt="Elena Rodriguez"
                       className="w-full h-full object-cover"
                     />
