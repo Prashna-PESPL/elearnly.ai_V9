@@ -23,26 +23,26 @@ const nextConfig = {
   },
 }
 
-mergeConfig(nextConfig, userConfig)
-
 function mergeConfig(nextConfig, userConfig) {
   if (!userConfig) {
-    return
+    return nextConfig
   }
 
+  const mergedConfig = { ...nextConfig }
   for (const key in userConfig) {
     if (
-      typeof nextConfig[key] === 'object' &&
-      !Array.isArray(nextConfig[key])
+      typeof mergedConfig[key] === 'object' &&
+      !Array.isArray(mergedConfig[key])
     ) {
-      nextConfig[key] = {
-        ...nextConfig[key],
+      mergedConfig[key] = {
+        ...mergedConfig[key],
         ...userConfig[key],
       }
     } else {
-      nextConfig[key] = userConfig[key]
+      mergedConfig[key] = userConfig[key]
     }
   }
+  return mergedConfig
 }
 
-export default nextConfig
+export default mergeConfig(nextConfig, userConfig)
